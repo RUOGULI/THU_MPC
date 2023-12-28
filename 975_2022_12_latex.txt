@@ -1,0 +1,280 @@
+%模板来源于https://www.overleaf.com/latex/templates/jiang-xi-cai-jing-da-xue-ben-ke-shi-juan-mo-ban/nvhjzdqsntpt
+\documentclass{ctexart}
+\ctexset{
+    section = {
+        titleformat = \raggedright,
+        name = {,、},
+        number = \chinese{section}
+    }
+}
+\usepackage[a4paper,top=2.54cm,bottom=2.54cm,left=3.18cm,right=3.18cm]{geometry}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{tikz}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{multicol}
+\usepackage{graphicx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{【第 \thepage 页~~共 \pageref{LastPage} 页】}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\labelenumii}{\Alph{enumii}.}
+
+\begin{document}
+\begin{center}
+\textbf{\LARGE 清华大学}\par
+\vspace{8pt}
+\textbf{\LARGE 2023年攻读硕士学位研究生入学考试初试试题}
+\end{center}
+
+\begin{center}
+\begin{tabular}{m{0.4\textwidth} m{0.4\textwidth} m{0.1\textwidth}}
+     报考专业：\textbf{材料与化工(085600)} &试卷代码：\textbf{材料物理化学(975)} \\报考单位：\textbf{清华大学(10003)} &考试时间：\textbf{2022.12}
+\end{tabular}
+\end{center}
+\hrule height 1pt
+%\noindent
+%\rule{\textwidth}{1pt}
+
+\section{单项选择题（共20题，每题3分）}
+\begin{enumerate}
+    \item 以下属于物理键的是()
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item 离子键 
+        \item 共价键
+        \item 金属键
+        \item 氢键
+    \end{enumerate}
+    \end{multicols}
+          
+    \item 立方晶系中(110)和(211)面同属于()晶带
+     \begin{multicols}{4}
+    \begin{enumerate}
+        \item $[\Bar{1}11]$
+        \item $[211]$
+        \item $[110]$
+        \item $[10\Bar{1}]$
+    \end{enumerate}
+    \end{multicols}
+
+    \item 立方晶系中晶面(hkl)与晶向[uvw]的关系为()
+    \begin{multicols}{2}
+    \begin{enumerate}
+        \item 相互平行
+        \item 相互垂直
+        \item 不确定的位置关系
+        \item 呈30°或60°夹角
+    \end{enumerate}
+     \end{multicols}
+     
+    \item NaCl、金刚石属于()空间点阵
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item 体心立方
+        \item 底心立方
+        \item 面心立方
+        \item 密排六方
+    \end{enumerate}
+    \end{multicols}
+    
+    \item 在NaCl的晶体结构中，Cl离子形成于面心立方点阵，而钠离子位于()
+    \begin{multicols}{2}
+    \begin{enumerate}
+        \item 互不相邻的四面体间隙中
+        \item 互不相邻的八面体间隙中
+        \item 所有的四面体间隙中
+        \item 所有的八面体间隙中
+    \end{enumerate}
+     \end{multicols}
+    
+    \item 理想HCP的c/a为()
+   \begin{multicols}{4}
+    \begin{enumerate}
+        \item 1.63
+        \item 1.82
+        \item 1.56
+        \item 2.05
+    \end{enumerate}
+      \end{multicols}
+
+    \item 在晶体中形成空位的同时又产生间隙原子称为()
+      \begin{multicols}{2}
+    \begin{enumerate}
+        \item 肖特基缺陷
+        \item 弗兰克尔缺陷
+        \item 肖克莱分位错
+        \item 弗兰克尔分位错
+    \end{enumerate}
+    \end{multicols}
+    
+    \item 在晶体缺陷的分类中，属于线缺陷的是()
+    \begin{multicols}{2}
+    \begin{enumerate}
+        \item 肖特基缺陷
+        \item 弗兰克尔缺陷
+        \item 肖克莱分位错
+        \item 孔洞
+    \end{enumerate}
+     \end{multicols}
+
+    \item 刃位错的位错线与滑移方向()
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item 相同
+        \item 相反
+        \item 垂直
+        \item 平行
+    \end{enumerate}
+ \end{multicols}
+ 
+    \item 以下合金相中高熔点、高硬度、脆性大且晶体结构简单的是()
+     \begin{multicols}{2}
+    \begin{enumerate}
+        \item 金属固溶体
+        \item 金属化合物
+        \item 机械混合物
+        \item 以上都不是
+    \end{enumerate}
+     \end{multicols}
+
+    \item 在扩散过程中溶质浓度不随()而变化
+      \begin{multicols}{4}
+    \begin{enumerate}
+        \item 距离
+        \item 时间
+        \item 温度
+        \item 压力
+    \end{enumerate}
+     \end{multicols}
+
+    \item 在扩散机制中，以下说法错误的是()
+    \begin{enumerate}
+        \item 没有实验结果证明直接换位机制是存在的
+        \item C、N、H、B等半径较小的原子在固溶体中的扩散一般属于间隙机制
+        \item 置换固溶体中，由于原子尺寸相差不太大，因此不能进行间隙扩散
+        \item 置换固溶体中，所有原子都在扩散，因此不同组元的扩散系数是一样的
+    \end{enumerate}
+
+    \item 关于无机材料的电导，错误的是()
+    \begin{enumerate}
+        \item 无机材料主要靠电子导热
+        \item 无机材料主要靠晶格振动的格波和自由电子的导热
+        \item 金属一般都具有较大的热导率
+        \item 非金属晶体晶格振动则是它们的主要导热机制
+    \end{enumerate}
+
+            
+    \item 关于孪晶界两侧的位向和孪晶界的界面类型，正确的是()
+     \begin{multicols}{2}
+    \begin{enumerate}
+        \item 共格界面
+        \item 半共格界面
+        \item 复杂半共格界面
+        \item 共格孪晶界
+    \end{enumerate}
+     \end{multicols}
+
+
+  
+    \item 关于电子电导，正确的是()
+    \begin{enumerate}
+        \item 当同种材料导体截面一定时，如果导体的长度越短，则导体的电导值越小
+        \item 导体的电阻越小，电导就越小
+        \item 电导用符号G表示，单位为西门子，简称西，用字母S表示
+        \item 导体的电导越大，表示该导体的电导性能越差
+    \end{enumerate}
+
+    
+    \item 关于铁电体和压电体，错误的是()
+    \begin{enumerate}
+        \item 压电性是由机械应力产生束缚电荷或由外加电场产生尺寸变化的效应
+        \item 压电体必须是电介质
+        \item 铁电体和压电体都没有对称中心
+        \item 铁电体的结构必须有带正负电荷的质点
+    \end{enumerate}
+            
+    \item 关于无机材料的热容，错误的是()
+    \begin{enumerate}
+        \item 热容跟摩尔热容都是强度量，与物质的量没有关系
+        \item 化合物分子热容等于构成此化合物各元素原子热容之和
+        \item Einstein模型忽略了各格波的频率差别，以及各原子振动的耦合作用
+        \item 每种晶体的德拜温度都有固定值，其取决于键的强度、材料的弹性模量、熔点等
+    \end{enumerate}
+    
+    \item 下列因素能影响所有化学反应的标准平衡常数的因素为()
+     \begin{multicols}{4}
+    \begin{enumerate}
+        \item 催化剂
+        \item 温度
+        \item 浓度
+        \item 压力
+    \end{enumerate}
+    \end{multicols}
+    
+    \item 相同温度和压力下，凹液面的饱和蒸汽压$P_r$和同种液体平页面的饱和蒸汽压$P_0$相比()
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item $P_r$＜$P_0$
+        \item $P_r$=$P_0$
+        \item $P_r$＞$P_0$
+        \item 无法比较
+    \end{enumerate}
+    \end{multicols}
+    
+    \item 如果两个反应的表观速率常数k与各基元反应速率常数的关系为$\frac{2k_1k_2}{k_3}$，则$E_0$ =()
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item $2E_1+E_2-E_3$
+        \item $E_1+E_2-E_3$
+        \item $\frac{2E_1E_2}{E_3}$
+        \item $\frac{E_1E_2}{E_3}$
+    \end{enumerate}
+     \end{multicols}
+\end{enumerate}
+
+\section{填空题（共10题，每题3分）}
+\begin{enumerate}
+    \item 金属材料常见的晶体结构有$\underline{\hspace{2cm}}$、$\underline{\hspace{2cm}}$、$\underline{\hspace{2cm}}$
+    
+     \item 间隙固溶体中，间隙原子扩散的一般方式为$\underline{\hspace{2cm}}$机制
+     
+    \item 面心立方晶体的[111]表面，其原子配位数为$\underline{\hspace{2cm}}$
+    
+    \item 固体热导率的普遍形式为$\frac{1}{3}\int c(w)v(w)l(w)dw$，w为晶格振动的角频率，c、v、l分别代表$\underline{\hspace{2cm}}$、$\underline{\hspace{2cm}}$、$\underline{\hspace{2cm}}$
+    
+    \item 假设材料的初始长度为$l_0$，初始体积为$V_0$，温度升高后长度增加量为$\Delta l$，体积增加量为$\Delta V$，则线性膨胀系数$\alpha_l$=$\underline{\hspace{2cm}}$，$\alpha_v$=$\underline{\hspace{2cm}}$。对于各向同性的材料，$\alpha_v$与$\alpha_l$的关系可以近似为$\underline{\hspace{2cm}}$
+    
+    \item 已知25℃时，$\frac{1}{2}Hg_2^{2+} + e^-=Hg$的标准电极电势为0.798V,$Hg^{2+}+2e^-=Hg$的标准电极电势为0.854V，则$Hg^{2+}+e^-=\frac{1}{2}Hg_2^{2+}$的标准电极电势为$\underline{\hspace{2cm}}$
+    
+    \item 已知某温度下$\gamma [Al_2O_3(s)/g]=1.00 \times 10^{-3}N/m^{-1}$，$\gamma [Al(l)/g]=0.9 \times 10^{-3}N/m^{-1}$，$\gamma [Al(l)/Al_2O_3(s)]=1.45 \times 10^{-3}N/m^{-1}$。那么该温度下液态铝与氧化铝表面的接触角为$\underline{\hspace{2cm}}$，由此判断该温度下液态铝在氧化铝表面$\underline{\hspace{2cm}}$(润湿/不润湿)
+   
+    \item 对于反应A→B，测得反应物A的浓度c与反应时间t成线性关系，则对反应物A来说，反应级数为$\underline{\hspace{2cm}}$
+    
+    \item 固体表面的物理吸附过程中，被吸附分子与固体表面的相互作用是$\underline{\hspace{2cm}}$
+    
+    \item 原电池中正极发生$\underline{\hspace{2cm}}$反应，负极发生$\underline{\hspace{2cm}}$反应
+\end{enumerate}
+
+
+\section{简答题（共6题，每题10分）}
+\begin{enumerate}
+  \item 画出FCC、BCC，并求出(001)和(111)所决定的晶带轴。
+
+  \item 简述热力学第一定律
+  
+  \item 简述三种测量电导率的方法
+  
+  \item 画出二元匀晶相图和二元共晶相图，并表明各相区
+  
+  \item 画出典型铁电体的电滞回线
+
+  \item (该题目收录不全)晶格类型相同的A、B两种元素组成固溶体，A、B组元在合金中摩尔分数为$x_A$、$x_B$。设A、B两种组元的摩尔吉布斯自由能为$G_A$和$G_B$，A-A、B-B、A-B的三种化学键键能为$\epsilon _{AA}$、$\epsilon _{BB}$、$\epsilon _{AB}$，原子配位数为Z，阿伏伽德罗常数为$N_A$。请回答A、B分别形成二元无序固溶体相的条件，并分别求出相应的固溶体的摩尔吉布斯自由能$G_m$
+  
+\end{enumerate}
+
+
+\end{document}
